@@ -1,0 +1,78 @@
+/* Navbar Styling */
+.navbar-custom {
+    background-color: #e3f2fd;
+    padding: 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content:center;
+  }
+  .navbar-nav {
+    display: flex;
+    gap: 10px; /* Gaps between navbar items */
+    justify-content: center;
+  }
+  
+  .navbar-icon {
+    color: #e84848; /* Red color for all icons */
+    font-size: 20px;
+  }
+  
+  /* Dropdown menu styling */
+  .custom-dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .dropdown-item-container {
+    padding: 5px 0; /* Add space between dropdown items */
+  }
+  
+  .item-icon {
+    color: #e84848; /* Red color for dropdown icons */
+    font-size: 30px;
+    display: block;
+    margin-bottom: 5px; /* Space between icon and text */
+  }
+  
+  .dropdown-item {
+    text-align: center; /* Center align dropdown item text */
+    padding: 10px;
+  }
+  
+  /* Style for Navbar Links */
+  .nav-link {
+    text-align: center; /* Center align navbar link text */
+
+    color: grey;
+    width:145px;
+    background-color:  #e3f2fd;
+  }
+  
+  .nav-link:hover {
+    color: #fc0909;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    position: relative;
+  }
+  
+  /* Ensure Navbar fits well on different screen sizes */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      display: block;
+    }
+  
+    .nav-link {
+      font-size: 12px;
+    }
+  
+    .navbar-icon {
+      font-size: 16px;
+    }
+  }
+  

@@ -1,0 +1,291 @@
+/* Desktop View */
+.loginform-container {
+  display: flex;
+  justify-content: space-evenly; /* Aligns the content horizontally */
+  align-items: center; /* Aligns the content vertically */
+  background-color: #1e2746; /* Background color */
+  height: 600px; /* Adjust the height as needed */
+  padding: 20px;
+  margin: auto;
+  width: 70%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 30px;
+
+  /* Increased Box Shadow */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+  
+  .loginform-image {
+    
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    
+  }
+  
+  .loginform-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .login-form-events{
+    background-color: #1e2746; /* Example gradient colors */
+   
+    border-radius: 0px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    height: 600px;
+    width:40%;
+  }
+  
+  
+  /* Headings */
+ .login-form-header {
+    text-align: center;
+    margin-top: 20px;
+    color:#d8b573;
+    margin-bottom: 50px;
+  }
+  
+  .form-group-event {
+    margin-bottom: 20px;
+  }
+  
+  .form-group-event label {
+    display: block;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: #d8b573;
+  }
+  
+  .form-group-event input {
+    width: 100%;
+    padding: 10px;
+    border: none; /* Remove the full border */
+    border-bottom: 2px solid #ddd; /* Only add a bottom border */
+    border-radius: 0; /* Remove any border radius */
+    background-color: transparent; /* Transparent background */
+    outline: none; /* Remove the outline when focused */
+}
+
+.form-group-event input:focus {
+    border-bottom-color: #007bff; /* Change color of bottom border on focus */
+    transition: border-bottom-color 0.3s ease-in-out; /* Smooth transition for focus effect */
+}
+
+ /* Custom placeholder color */
+.input-container input::placeholder {
+  color: #d8b573; /* Change this to any color you prefer */
+  opacity: 1;  /* Ensures consistent opacity across browsers */
+  font-size: 18px;
+}
+
+.input-container input:focus::placeholder {
+  color: #d8b573; /* Change the color when the input is focused */
+}
+ 
+  /* Form options */
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    color:#d8b573;
+    margin-right: 20px;
+  
+  }
+  
+  .remember-me input[type="checkbox"] {
+    margin-right:3px; /* Adds space between the checkbox and label */
+    width:25px;
+  }
+  
+  .forgot-password {
+    text-decoration: none;
+    color:#d8b573;
+  }
+  
+  .forgot-password:hover {
+    color: #0056b3;
+  }
+  
+  .loginform-button {
+    width: 100%;
+    padding: 10px;
+    background-color:  #d8b573;
+    color:#f1f0ee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  
+  .loginform-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Social Login Buttons */
+  .social-login {
+   
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+      gap: 10px;
+  }
+  
+  .google-button, .facebook-button {
+     width:100%;
+   
+    padding: 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .google-button {
+    background-color:  #d8b573;
+    margin-bottom: 30px;
+  }
+  
+  .google-button:hover {
+    background-color:#0056b3;
+  }
+  
+  .facebook-button {
+    background-color:  #d8b573;
+    margin-bottom: 30px;
+  }
+  
+  .facebook-button:hover {
+    background-color:#0056b3;
+  }
+  
+  /* Signup link */
+  .signup-link {
+    text-align: center;
+    color:white;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .signup-link a:hover {
+    color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .loginform-mainBox{
+    width:100%;
+    height: 800px;
+    align-items: center;
+    margin: auto;
+  }
+  /* Input Container */
+.input-container {
+  position: relative; /* Position relative for containing the icon */
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* Add padding to make space for the icon */
+  border: none; /* Remove full border */
+  border-bottom: 2px solid #ddd; /* Only bottom border */
+  border-radius: 0; /* No border radius */
+  background-color: transparent;
+  outline: none;
+}
+
+.input-container input:focus {
+  border-bottom-color: #007bff; /* Change color on focus */
+  transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.input-container .icon {
+  position: absolute; /* Position it inside the container */
+  right: 10px; /* Align it to the right of the input field */
+  font-size: 18px; /* Adjust the size of the icon */
+  color: #888; /* Icon color */
+}
+
+.input-container .icon.email-icon {
+  right: 10px; /* Adjust for email icon */
+}
+
+.input-container .icon.password-icon {
+  right: 10px; /* Adjust for password icon */
+}
+
+.input-container input:focus + .icon {
+  color: #007bff; /* Change icon color on focus */
+}
+
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .loginform-container {
+      flex-direction: column; /* Stack elements vertically */
+      height: auto; /* Allow auto height for mobile */
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .loginform-image {
+    
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        padding: 0 0 10px 0;
+        
+      }
+      
+      .loginform-image img {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+      
+    .loginform-image {
+      padding: 0 0 10px 0; /* Image on top with some bottom padding */
+    }
+  
+    .login-form-events{
+      width: 100%; /* Full width on mobile */
+      max-width: 100%; /* Ensure it doesn't exceed the container width */
+      /*padding: 20px;*/ /* Adjust padding for mobile */
+      box-shadow: none; /* Remove box-shadow for a simpler mobile look */
+    }
+  
+    .form-options {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .social-login {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .google-button, .facebook-button {
+      width: 100%; /* Full width buttons on mobile */
+    }
+    
+  }
+  

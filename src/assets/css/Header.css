@@ -1,0 +1,44 @@
+.header {
+  background-color: #363e45;
+  padding: 0px 0;
+}
+.nav-left{
+  justify-content: left;
+  text-align: left;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between; /* This aligns items to the left and right */
+  align-items: center;
+  padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo-img {
+  height: 200px; /* Adjust logo size as needed */
+  width: 220px;
+}
+
+.login-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Aligns the login button to the right */
+}
+
+.login-button {
+  background-color:#d8b573;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+  color: white;
+}

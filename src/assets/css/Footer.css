@@ -1,0 +1,213 @@
+.footer-container {
+  background-color: #222;
+  color: #fff;
+  padding: 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+
+}
+
+/* Prevent font size change on hover */
+.footer-section ul li a:hover {
+  color: #e0dfeb; /* Change color on hover */
+  text-decoration: underline; /* Underline on hover */
+  font-size: 1.4em; /* Increase font size on hover */
+  transition: font-size 0.3s ease; /* Smooth transition for font size change */
+}
+
+
+
+.footer-logo {
+  width: 250px;
+    height: 200px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+}
+
+.footer-icons img {
+  width: 50px;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 150px;
+  margin: 10px 20px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-container {
+  text-align: center;
+  margin: 10px;
+}
+
+.icon-container img {
+  display: block;
+  margin: 0 auto;
+}
+
+.icon-container p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: white;
+}
+
+
+.footer-bottom p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Optional: Add transition for smooth hover effect */
+
+.icon-block {
+  text-align: center;
+}
+
+.icon-style {
+  color: gold;
+  font-size: 30px;
+}
+
+.text-white {
+  color: #ffffff;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+ 
+}
+.col-lg-6 {
+  padding-top: 1rem;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.col-md-3
+ {
+  padding: 0.5rem;
+}
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.icon-style {
+  color: gold;
+}
+
+.my-2 {
+  margin-top: 0rem !important;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 30%;
+}
+
+.text-light{
+  margin-bottom: 0px !important;
+}
+.col {
+  flex: 1 ;
+}
+.footer {
+  padding: 1rem 0; /* Adjust padding as necessary */
+}
+
+.social-links {
+  display: flex;
+  gap: 0.5rem; /* Spacing between social buttons */
+  margin-top: 0px !important;
+}
+
+.btn-social {
+  background-color: transparent;
+  border: none;
+  color: gold; /* Adjust based on your design */
+  font-size: 30px;
+}
+
+.icon-style {
+  color: gold;
+  font-size: 30px;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.img-fluid {
+  padding: 5%;
+  height: auto; /* Let height adjust automatically */
+  max-height: 75px; /* Set max height for uniformity */
+  width: 160px; /* Maintain width */
+}
+
+
+@media (max-width: 995px) {
+  .col {
+    flex: 1 0 100%;
+  }
+  .col-lg-6 {
+    padding-top: 1rem;
+    width: 100%;
+    margin: auto;
+    display: block !important;
+    gap: 20px;
+  }
+}
