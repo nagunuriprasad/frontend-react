@@ -1,6 +1,7 @@
 import React from 'react';
 import './assets/css/AboutUs.css'; // External CSS file
-
+import Faq from './Faq';
+import ContactUs from './ContactUs';
 const AboutUs = () => {
   return (
     <div className="aboutus-container">
@@ -39,7 +40,8 @@ const AboutUs = () => {
         </div>
       </section>
 
-     
+     <div><Faq/></div>
+     <div><ContactUs/></div>
     </div>
   );
 };

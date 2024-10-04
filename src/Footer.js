@@ -19,10 +19,10 @@ const Footer = () => {
         <div className="footer-section company-info">
           <img src={companyLogo} alt="Company Logo" className="footer-logo" />
           <ul>
-            <li><a href="#">About Us</a></li>
+            <li><a href="AboutUs">About Us</a></li>
             <li><a href="#">Customer Review</a></li>
             <li><a href="#">Career</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="ContactUs">Contact Us</a></li>
             <li><a href="#">Pay Us</a></li>
           </ul>
          
@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="footer-section popular-services">
           <h4>Our Popular Services</h4>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="#">Packages</a></li>
             <li><a href="#">Events</a></li>
             <li><a href="#">Insta Food</a></li>
@@ -44,15 +44,15 @@ const Footer = () => {
         </div>
 
         <div className="footer-section terms-policy">
-          <h4>Terms & Policy</h4>
-          <ul>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Cancelation & Refund Policy</a></li>
-            <li><a href="#">Shipping & Delivery</a></li>
-            <li><a href="#">Confidentiality Policy</a></li>
-          </ul>
-        </div>
+  <h4>Terms & Policy</h4>
+  <ul>
+    <li><a href="/TermsAndConditions">Terms & Conditions</a></li>
+    <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
+    <li><a href="/CancelationRefundPolicy">Cancellation & Refund Policy</a></li>
+    <li><a href="/ShippingDelivery">Shipping & Delivery</a></li>
+    <li><a href="/confidentiality">Confidentiality Policy</a></li>
+  </ul>
+</div>
 
         <div className="footer-section connect-us">
           <h4>Connect With Us</h4>

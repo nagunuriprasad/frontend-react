@@ -30,6 +30,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     padding: 20px;
+    background-color: #f7f7f7;
   }
   
   .aboutus-item {

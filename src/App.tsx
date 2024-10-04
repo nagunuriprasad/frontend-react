@@ -14,7 +14,13 @@ import AboutUs from './AboutUs';
 import ContactUs from './ContactUs';
 import Faq from './Faq';
 import NewPage from './NewPage';
+import PrivacyPolicy from './PrivacyPolicy';
+import Confidentiality from './Confidentiality';
 import LanguageSelector from './LanguageSelector';
+import ShippingDelivery from './ShippingDelivery';
+import CancelationRefundPolicy from './CancelationRefundPolicy';
+import TermsAndConditions from './TermsAndConditions';
+
 
 const App = () => {
   return (
@@ -34,6 +40,11 @@ const App = () => {
         <Route path="/ContactUs" element={<ContactUs/>} />
         <Route path="/Faq" element={<Faq/>} />
         <Route path="/NewPage" element={<NewPage/>} />
+        <Route path="/Confidentiality" element={<Confidentiality/>} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>} />
+        <Route path="/ShippingDelivery" element={<ShippingDelivery/>} />
+        <Route path="/CancelationRefundPolicy" element={<CancelationRefundPolicy/>} />
+        <Route path="/TermsAndConditions" element={<TermsAndConditions/>} />
         
       </Routes>
       <Footer />

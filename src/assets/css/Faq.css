@@ -58,11 +58,12 @@
         overflow: hidden;
         transition: max-height 0.3s ease;
         padding: 0 1em;
+        text-align: left;
   
         p {
           margin: 10px 0;
           color: #666;
-          padding: 1em;
+          
           background: #fff;
           border-radius: 5px;
           font-size: 18ps;
