@@ -20,4 +20,10 @@ const ImageTextGrid = () => {
             </div>
             <div className="grid-item">
                 <img src={user} alt="Description 4" className="grid-image" />
-                <p className="page-color">Delivery Boy S
+                <p className="page-color">Delivery Boy Signup</p>
+            </div>
+        </div>
+    );
+};
+
+export default ImageTextGrid;

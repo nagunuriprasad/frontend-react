@@ -8,7 +8,6 @@ import HomePage from './HomePage';
 import Header from './Header';
 import Footer from './Footer';
 import LoginForm from './LoginForm';
-import Tanq from './Tanq';
 import StaffSignup from './StaffSignup';
 import Navbar from './Navbar';
 import AboutUs from './AboutUs';
@@ -29,7 +28,7 @@ const App = () => {
         <Route path="/SignupForm" element={<SignupForm />} />
         <Route path="/CompanyForm" element={<CompanyForm />} />
         <Route path="/LoginForm" element={<LoginForm />} />
-        <Route path="/Tanq" element={<Tanq />} />
+        
         <Route path="/StaffSignup" element={<StaffSignup />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/ContactUs" element={<ContactUs/>} />
